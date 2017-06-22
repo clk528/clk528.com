@@ -1,6 +1,6 @@
 <?php
 /**
- * 这是 小夜博客（www.vpsmm.com）制作的一款新模板，用来存放文档之类的东西，蓝色调很饱满。
+ * 这是 小夜博客（www.vpsmm.com）制作的一款新模板，用来存放文档之类的东西，蓝色调很饱满。我去你大爷
  * 
  * @package Typecho wiki VPSMM Theme 
  * @author VPSMM.COM
