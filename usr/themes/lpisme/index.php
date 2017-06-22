@@ -207,9 +207,9 @@ $this->need('header.php');
                         <?php $this->description(); ?>
                     </div>
                     <?php $thumb = showThumb($this,null,true); if(!empty($thumb)):?>
-                        <div class="index-post-thumb">
+                        <!-- <div class="index-post-thumb">
                             <img class="thumb" src="<?php echo $thumb;?>">
-                        </div>
+                        </div> -->
                     <?php endif; ?>
 
                     <div class="index-post-meta cf">
