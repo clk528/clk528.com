@@ -1,4 +1,5 @@
 <?php
+die();
 /**
  * Typecho Blog Platform
  *
