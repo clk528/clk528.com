@@ -35,7 +35,6 @@
             <div class="logo left">
                 <a href="<?php $this->options->siteUrl(); ?>">
                     <?php $this->options->title() ?>
-
                 </a>
             </div>
             <div class="slogan">
@@ -47,15 +46,13 @@
             </div>
         </div>
         <form id="search" method="post" action="/" role="search">
-                <input type="text" class="input" name="s" required="true" placeholder="...Search" dir="rtl">
+            <input type="text" class="input" name="s" required="true" placeholder="...Search" dir="rtl">
         </form>
         <nav class="nav">
             <div class="nav-wrapper right">
                 <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
                 <?php while($pages->next()): ?>
-
-                <a <?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
+                    <a <?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
                 <?php endwhile; ?>
-
             </div>
         </nav>
