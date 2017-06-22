@@ -196,7 +196,8 @@ $this->need('header.php');
 						<?php else : ?>
                         <?php endif; ?>
                         <div class="index-post-date" itemprop="datePublished">
-                            <?php $this->date('F jS , Y'); ?>
+                            <!-- <?php $this->date('F jS , Y'); ?> -->
+                            <?php $this->date('Y-m-d'); ?>
                         </div>
                         <div class="index-post-title" itemprop="name headline">
                             <a href="<?php $this->permalink() ?>" itemtype="url"><?php $this->title() ?></a>
