@@ -195,7 +195,7 @@ $this->need('header.php');
                             </span>
 						<?php else : ?>
                         <?php endif; ?>
-                        <div class="index-post-date" itemprop="datePublished">
+                        <div class="index-post-date" itemprop="datePublished" style="display: none;">
                             <!-- <?php $this->date('F jS , Y'); ?> -->
                             <?php $this->date('Y-m-d'); ?>
                         </div>
