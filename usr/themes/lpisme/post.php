@@ -4,7 +4,7 @@
     <div class="wrapper main" role="main">
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
             <h1 class="post-title" itemprop="name headline"><a href="<?php $this->permalink() ?>" itemtype="url"><?php $this->title() ?></a></h1>
-            <div class="post-meta">
+            <div class="post-meta" style="display: none">
                 <!-- <span datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('F jS , Y'); ?></span> -->
                 <span datetime="<?php $this->date('Y-m-d H:i:s'); ?>" itemprop="datePublished"><?php $this->date('Y-m-d'); ?></span>
             </div>
